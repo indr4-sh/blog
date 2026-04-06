@@ -1,0 +1,29 @@
+:root {
+  --ifm-color-primary: #4f8cff;
+  --ifm-color-primary-dark: #3d7df5;
+  --ifm-color-primary-darker: #2f72f0;
+  --ifm-color-primary-light: #6a9dff;
+  --ifm-background-color: #0f1115;
+  --ifm-font-color-base: #e6eaf2;
+  --ifm-heading-color: #ffffff;
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-background-color: #11151c;
+  --ifm-footer-background-color: #0b0e13;
+}
+
+[data-theme='light'] {
+  --ifm-background-color: #ffffff;
+  --ifm-font-color-base: #1d2430;
+  --ifm-navbar-background-color: #ffffff;
+}
+
+.custom-hero {
+  padding: 6rem 0;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
